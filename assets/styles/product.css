@@ -1,0 +1,24 @@
+.products {
+ 
+}
+.products_content {
+    display: flex;
+}
+.products_content > div {
+width: 24%;
+align-items: center;
+text-align: center;
+}
+.products_content > div > div > img {
+    width: 100%;
+    object-fit: contain;
+}
+.products_content > div  > button {
+    color: orange;
+background-color: orange;
+border: none;
+padding: 20px 30px;
+color: #fff;
+border-radius: 50px;
+}
+

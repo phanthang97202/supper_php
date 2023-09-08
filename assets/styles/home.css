@@ -1,0 +1,78 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo{
+    
+}
+.navbar .input{
+    width: 40%;
+}
+.navbar .input input{
+    width: 100%;
+    border-radius: 20px;
+    border-color: orange;
+    padding: 10px ;
+}
+
+.navbar .search{
+}
+.navbar .search button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.navbar .cart{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+.navbar .cart button{
+}
+
+
+/* //////////////////////////// */
+
+
+/* ======================= */
+.banner_image {
+    width: 100%;
+}
+.banner_image img{
+    width: 100%;
+}
+
+/* ============================== */
+.container_content {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container_content > div{
+    width: 30%;
+}
+.container_content > div > div >img{
+    width: 100%;
+}
+
+/* ===================== */
+.footer{
+    display: flex;
+}
+.footer > div {
+    width: 24%;
+}
+.footer > div > ul {
+    list-style-type: none;
+}
+.footer > div > ul > li {
+color: black;
+padding: 4px 0;
+font-weight: 600;
+}
